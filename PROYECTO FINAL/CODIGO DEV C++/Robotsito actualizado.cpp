@@ -24,7 +24,7 @@ int **ejecutar(char *nombreArchivo){
     
     char linea[150];
     fgets(linea, 150, archivo); 
-    char *token = strtok(linea, " "); 	//encontramos el tamaño de la matriz
+    char *token = strtok(linea, " "); 	//encontramos el tamaÃ±o de la matriz
     int filas = atoi(token);
     token = strtok(NULL, " ");
     int columnas = atoi(token);
@@ -378,7 +378,7 @@ int **ejecutar(char *nombreArchivo){
 
 int main(int argc, char** argv) {
 	
-	ejecutar("ROBCOM.TXT"); //ejecutamos la funcion
+	ejecutar("ROBCOM.TXT"); //ejecutamos la funcion y se pasa por argumento el ARCHIVO DE PRUEBA
 	system("PAUSE");
 	return 0;
 }
