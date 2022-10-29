@@ -12,14 +12,14 @@ nos proponen los programadores es correcta y no supone ningún peligro para la i
 Se trata de comprobar que una secuencia de órdenes determinada desplaza el robot dentro del recinto sin que sea destruido.
 
 ### **Entrada**
-La entrada del programa consiste de una secuencia de líneas, que residen en un archivo de texto (ASCII) con nombre ROBCOM.TXT (**SE ENCUENTRAN EN LA CARPETA DE C++**), que tendrá el siguiente formato:
+La entrada del programa consiste de una secuencia de líneas, que residen en un archivo de texto (ASCII) con nombre ROBCOM.TXT (**[SE ENCUENTRAN EN LA CARPETA DE C++](https://github.com/DanielGarzon17/trayectoriaDeunRobot/tree/main/PROYECTO%20FINAL/CODIGO%20DEV%20C%2B%2B)**), que tendrá el siguiente formato:
 
 - La primera línea (la 1) contiene el número de filas (m) y columnas (n) del recinto separados por un espacio en blanco. Puedes suponer que se cumple 1 <= m < 100 y 1 <= n < 100.
 - Las m líneas siguientes (de la 2 a la m+1) contienen, cada una, una fila del recinto. Concretamente, la línea tendrá n ceros o unos separados un espacio en blanco entre ellos. Un 0 corresponde a una casilla que puede ser pisada sin peligro y un 1 corresponde a una casilla minada.
 - La siguiente línea (la m+2) contiene las coordenadas (i1, j1), 1 <= i1 <= m, 1 <= j1 <= n, de la posición inicial del robot, separadas con un espacio en blanco.
 - La siguiente línea (la m+3) contiene las coordenadas (i2, j2), 1 <= i1 <= m, 1 <= j1 <= n, del destino del robot, separadas con un espacio en blanco.
 - La siguiente línea (la m+4) contiene una única letra indicando la orientación inicial del robot (N, E, S o O).
-La siguiente línea (la m+5) contiene el número de órdenes dadas al robot (entre 1 y 40).
+- La siguiente línea (la m+5) contiene el número de órdenes dadas al robot (entre 1 y 40).
 - La última línea (la m+6) contiene la secuencia de órdenes, es decir, letras "A", "D" e "I", separadas por un único blanco y sin blancos al inicio ni al final de la línea.
 
 
